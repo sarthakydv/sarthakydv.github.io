@@ -1,9 +1,10 @@
 $color: #348459;
-$color2: #172ce6;
+$color2: #732345;
 body {
   background: $color;
   //   text-shadow: $color2;
-  text-decoration-color: $color2;
+  color: $color2;
   text-align: center;
   font-size: 2rem;
+  margin: 0px;
 }
