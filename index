@@ -36,35 +36,63 @@
 
   <body id="page-top">
     <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
-      <i class="fas fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#page-top">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Services</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" target="_blank" href="emmet.html"
-            >Emmet</a
-          >
-        </li>
-      </ul>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Start Bootstrap</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="js-scroll-trigger nav-link" href="#page-top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="js-scroll-trigger nav-link" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="js-scroll-trigger nav-link"
+                target="_blank"
+                href="docs/resume.pdf"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="js-scroll-trigger nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="js-scroll-trigger nav-link" target="_blank" href="about"
+                >About Me</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="js-scroll-trigger nav-link"
+                target="_blank"
+                href="emmet.html"
+                >Emmet</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!-- Header -->
@@ -258,7 +286,7 @@
     </section>
 
     <!-- Map -->
-    <div id="contact" class="map">
+    <!-- <div id="contact" class="map">
       <iframe
         src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
       ></iframe>
@@ -268,7 +296,7 @@
           href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"
         ></a>
       </small>
-    </div>
+    </div> -->
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -312,7 +340,7 @@
           </li>
         </ul>
         <p class="text-muted small mb-0">
-          Copyright &copy; Your Website 2020
+          Copyright &copy; Sarthak Yadav 2020
         </p>
       </div>
     </footer>
@@ -331,5 +359,104 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
+    <!-- <nav class="index-navigation" role="navigation">
+      <a
+        class="index-nav-link index-all-link"
+        href="/"
+        data-ajax-loader="ajax-loader-binded"
+        >All</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/present_intern-at-ea-who-says-games-cannot-be-streamed"
+        data-ajax-loader="ajax-loader-binded"
+        >Intern at EA | Who says games cannot be streamed?</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/artefact"
+        data-ajax-loader="ajax-loader-binded"
+        >My Journey at Artefact</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/ar-wearable-framework-design"
+        data-ajax-loader="ajax-loader-binded"
+        >AR Wearable Framework Design</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/fingerfood-design-challenge-design-with-ambiguity"
+        data-ajax-loader="ajax-loader-binded"
+        >Design with Ambiguity | A 3-Day Challenge</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/microsoft-uw-accessible-gaming-experience-2"
+        data-ajax-loader="ajax-loader-binded"
+        >Microsoft | Accessibility in Gaming</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/cascade-bicycle-club-full-case-study"
+        data-ajax-loader="ajax-loader-binded"
+        >Cascade Bicycle Club | Web Experience Redesign</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/iot"
+        data-ajax-loader="ajax-loader-binded"
+        >IoT Prototype | Devices that know what you want</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/google-design-challenge"
+        data-ajax-loader="ajax-loader-binded"
+        >Google Design Challenge</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/sleepsavvy-user-study-mobile-prototyping"
+        data-ajax-loader="ajax-loader-binded"
+        >BePresent | User Study &amp; Mobile Prototyping</a
+      >
+
+      <a
+        class="index-nav-link page-collection active-link index-page-transition-link"
+        href="/ardtouchsense-guitar"
+        data-ajax-loader="ajax-loader-binded"
+        >Ardurino | Touch-sense Guitar</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link link-next-up"
+        href="/squi-companionship-design"
+        data-ajax-loader="ajax-loader-binded"
+        >SQUI | Companionship Design</a
+      >
+
+      <a
+        class="index-nav-link page-collection index-page-transition-link"
+        href="/chefn-uw-interactive-picnic-experience"
+        data-ajax-loader="ajax-loader-binded"
+        >Chef'n + UW | Interactive Picnic Experience</a
+      >
+
+      <a
+        class="index-nav-link project-collection index-page-transition-link"
+        href="/brushean-design-process-andrew-bowen-design-llc"
+        data-ajax-loader="ajax-loader-binded"
+        >Brushean Design Process | Andrew Bowen Design LLC</a
+      >
+    </nav> -->
   </body>
 </html>
