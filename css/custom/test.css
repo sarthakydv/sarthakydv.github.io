@@ -1,4 +1,8 @@
 body {
-  background: red;
+  background: #348459;
+  -webkit-text-decoration-color: #172ce6;
+          text-decoration-color: #172ce6;
+  text-align: center;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=test.css.map */
